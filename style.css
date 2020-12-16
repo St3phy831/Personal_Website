@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background: #e6f2ff;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.myInfo{
+  width: 100%;
+}
+
+.myInfo h1{
+  padding: 30px 30px 20px;
+}
+
+.myInfo p{
+  padding: 0px 30px 20px;
+}
+
+.pic{
+  width: 100%;
+}
+
+.containerTwo{
+  width: 100%;
+  margin: 0 auto;
+}
+.csumb{
+  width: 100%;
+}
+.title{
+  padding: 30px 30px 30px;
+}
+#csumbPic{
+  width: 100%;
+}
+.csumb p{
+  padding: 15px 30px 15px;
+}
+.hartnell{
+  width: 100%;
+}
+#hartnellPic{
+  width: 100%;
+  padding:0;
+}
+.hartnell p{
+  padding: 15px 30px 15px;
+}
+.containerThree{
+  width: 100%;
+  margin: 0 auto;
+}
+.contactInfo{
+  width: 100%;
+  background-color: #DCDCDC;
+}
+.contactInfo h3{
+  padding: 20px 0px 5px 30px;
+}
+.contactInfo p{
+  padding: 5px 0px 0px 30px;
+}
+#links{
+  word-spacing: 75px;
+}
+#liscence{
+  padding-top: 2px;
+  font-size: 12px;
+}
+#linkedIn{
+  width: 1.8%;
+}
+#github{
+  width: 1.8%;
+}
+hr{
+  visibility: hidden;
+}
+
+/* Media Queries: Tablet Landscape */
+/* @media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+} */
+
+/* Media Queries: Tabled Portrait */
+@media only screen and (min-width: 768px) {
+  .topnav{    
+    width: 100%;
+  }
+  .container{
+    width: 600px;
+  }
+  .myInfo h1{
+    padding: 20px 0px 0px;
+  }
+  .myInfo p{
+    padding: 20px 0px 0px;
+  }
+  .pic{
+    padding-top: 20px;
+  }
+  .containerTwo{
+    width: 600px;
+    padding-bottom: 20px;
+  }
+  .title{
+    padding: 20px 0px 0px;
+  }
+  .csumb p{
+    padding: 20px 0px 0px;
+  }
+
+  #csumbPic{
+    padding-top: 20px;
+  }
+  .hartnell p{
+    padding: 20px 0px 0px;
+  }
+
+  #hartnellPic{
+    padding-top: 20px;
+  }
+  .containerThree{
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  #links{
+    word-spacing: 60px;
+  }
+  
+}
+
+/* Media Queries: Computer Screen */
+@media only screen and (min-width: 1120px) {
+  .topnav{    
+    width: 100%;
+  }
+  .container{
+    width: 1120px;
+    padding-bottom: 360px;
+  }
+  .myInfo{
+    width: 80%;
+    float: right;
+  }
+
+  .myInfo h1{
+    padding: 20px 20px 10px 200px;
+  }
+
+  .myInfo p{
+    padding: 20px 20px 10px 40px;
+  }
+
+  .pic{
+    width: 20%;
+    float: left;
+  }
+  .containerTwo{
+    width: 1120px;
+    padding-bottom: 40px;
+  }
+  .csumb{
+    width: 30%;
+    float: right;
+  }
+  .title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .csumb p{
+    padding: 25px 20px 10px 0px;
+  }
+  #csumbPic{
+    width: 50%;
+  }
+  .hartnell{
+    width: 30%;
+    float: left;
+  }
+  .hartnell p{
+    padding: 25px 20px 10px 0px;
+  }
+  #hartnellPic{
+    width: 30%;
+  }
+  .containerThree{
+    width: 100%;
+    padding-top: 300px;
+  }
+  .contactInfo h3{
+    padding-top: 15px;
+  }
+  hr{
+    visibility: visible;
+    border: 2.5px solid white;
+  }
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  width: 100%;
+}
+#logo{
+  float: left;
+  color: #B0CEFE;
+  font-size: 18px;
+  pointer-events:none;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 17px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: American Typewriter, serif;
+}
+.topnav a:hover {
+  background-color: rgb(16, 105, 238);
+  color: white;
+}

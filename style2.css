@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background: #e6f2ff;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.myInfo{
+  width: 100%;
+}
+#title{
+  padding: 30px 30px 20px;
+}
+.myInfo b{
+  font-size: 20px;
+}
+.myInfo p{
+  padding: 0px 30px 20px;
+}
+.pic{
+  width: 100%;
+  padding-bottom: 5px;
+}
+.containerTwo{
+  width: 100%;
+  margin: 0 auto;
+}
+.myInfoTwo{
+  width: 100%;
+}
+#title{
+  padding: 30px 30px 20px;
+}
+.myInfoTwo b{
+  font-size: 20px;
+}
+.myInfoTwo p{
+  padding: 0px 30px 20px;
+}
+.picTwo{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.containerThree{
+  width: 100%;
+  margin: 0 auto;
+}
+.myInfoThree{
+  width: 100%;
+}
+#title{
+  padding: 30px 30px 20px;
+}
+.myInfoThree b{
+  font-size: 20px;
+}
+.myInfoThree p{
+  padding: 0px 30px 20px;
+}
+.picThree{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.containerLast{
+  width: 100%;
+  margin: 0 auto;
+}
+.contactInfo{
+  width: 100%;
+  background-color: #DCDCDC;
+}
+.contactInfo h3{
+  padding: 20px 0px 5px 30px;
+}
+.contactInfo p{
+  padding: 5px 0px 0px 30px;
+}
+#links{
+  word-spacing: 75px;
+}
+#liscence{
+  padding-top: 2px;
+  font-size: 12px;
+}
+#linkedIn{
+  width: 1.8%;
+}
+#github{
+  width: 1.8%;
+}
+hr{
+  visibility: hidden;
+}
+/* Media Queries: Tabled Portrait */
+@media only screen and (min-width: 768px) {
+  .topnav{    
+    width: 100%;
+  }
+  .container{
+    width: 600px;
+    padding-bottom:5px;
+  }
+  #title{
+    padding: 20px 0px 10px;
+  }
+  .myInfo p{
+    padding: 10px 0px 0px;
+  }
+  .pic{
+    padding-top: 20px;
+  }
+  .containerTwo{
+    width: 600px;
+    padding-bottom:5px;
+  }
+  .myInfoTwo p{
+    padding: 10px 0px 0px;
+  }
+  .picTwo{
+    padding-top: 20px;
+  }
+  .containerThree{
+    width: 600px;
+    padding-bottom:10px;
+  }
+  .myInfoThree p{
+    padding: 10px 0px 0px;
+  }
+  .picThree{
+    padding-top: 20px;
+  }
+  .containerLast{
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  #links{
+    word-spacing: 60px;
+  } 
+}
+/* Media Queries: Computer Screen */
+@media only screen and (min-width: 1120px) {
+  .topnav{    
+    width: 100%;
+  }
+  .container{
+    width: 1120px;
+    padding-bottom: 310px;
+  }
+  .myInfo{
+    width: 70%;
+    float: right;
+  }
+
+  #title{
+    text-align: center;
+    padding: 20px 20px 5px 40px;
+  }
+
+  .myInfo p{
+    padding: 10px 20px 5px 40px;
+  }
+
+  .pic{
+    width: 25%;
+    float: left;
+  }
+  .containerTwo{
+    width: 1120px;
+    padding-bottom: 355px;
+  }
+  .myInfoTwo{
+    width: 70%;
+    float: right;
+  }
+
+  .myInfoTwo p{
+    padding: 10px 20px 5px 40px;
+  }
+
+  .picTwo{
+    width: 25%;
+    float: left;
+  }
+  .containerThree{
+    width: 1120px;
+    padding-bottom: 50px;
+  }
+  .myInfoThree{
+    width: 70%;
+    float: right;
+  }
+
+  .myInfoThree p{
+    padding: 10px 20px 5px 40px;
+  }
+
+  .picThree{
+    width: 25%;
+    float: left;
+  }
+  .containerLast{
+    width: 100%;
+    padding-top: 300px;
+  }
+  .contactInfo h3{
+    padding-top: 15px;
+  }
+  hr{
+    visibility: visible;
+    border: 2.5px solid white;
+  }
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  width: 100%;
+}
+#logo{
+  float: left;
+  color: #B0CEFE;
+  font-size: 18px;
+  pointer-events:none;
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 17px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: American Typewriter, serif;
+}
+.topnav a:hover {
+  background-color: rgb(16, 105, 238);
+  color: white;
+}
