@@ -144,7 +144,7 @@ hr{
   }
   .container{
     width: 1120px;
-    padding-bottom: 650px;
+    padding-bottom: 450px;
   }
   .myInfo{
     width: 80%;
@@ -166,11 +166,11 @@ hr{
   }
   .containerTwo{
     width: 1120px;
-    padding-bottom: 650px;
+    padding-bottom: 450px;
   }
   .myInfoTwo{
     width: 80%;
-    float: right;
+    float: left;
   }
 
   .myInfoTwo ul{
