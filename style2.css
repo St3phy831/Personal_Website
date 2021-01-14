@@ -34,9 +34,6 @@ body {
 .myInfoTwo{
   width: 100%;
 }
-#title{
-  padding: 30px 30px 20px;
-}
 .myInfoTwo b{
   font-size: 20px;
 }
@@ -53,9 +50,6 @@ body {
 }
 .myInfoThree{
   width: 100%;
-}
-#title{
-  padding: 30px 30px 20px;
 }
 .myInfoThree b{
   font-size: 20px;
