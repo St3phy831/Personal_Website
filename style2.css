@@ -103,9 +103,6 @@ hr{
 }
 /* Media Queries: Tabled Portrait */
 @media only screen and (min-width: 768px) {
-  .topnav{    
-    width: 100%;
-  }
   .container{
     width: 600px;
     padding-bottom:5px;
@@ -152,9 +149,7 @@ hr{
 }
 /* Media Queries: Computer Screen */
 @media only screen and (min-width: 1120px) {
-  .topnav{    
-    width: 100%;
-  }
+  
   .container{
     width: 1120px;
     padding-bottom: 310px;
