@@ -76,7 +76,7 @@ body {
   padding: 5px 0px 0px 30px;
 }
 #links{
-  word-spacing: 75px;
+  word-spacing: 5px;
 }
 #liscence{
   padding-top: 2px;
@@ -134,7 +134,7 @@ hr{
     padding-bottom: 0px;
   }
   #links{
-    word-spacing: 60px;
+    word-spacing: 5px;
   } 
 }
 /* Media Queries: Computer Screen */
