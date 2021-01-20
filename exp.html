@@ -11,16 +11,19 @@
     <title>Stephanie's Experiences</title>
     <link href="style2.css" rel="stylesheet" type="text/css" />
   </head>
-
-  <!-- This links the home page to the rest of the pages -->
   <body>
     
-    <div class="topnav">
-      <a href="project.html">Projects</a>
-      <a href="exp.html">Experiences</a>
-      <a href="index.html">About Me</a>
-      <a id="logo">Stephanie H.</a>
-    </div>
+    <!-- This links the home page to the rest of the pages -->
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+      <label class="logo">Stephanie H.</label>
+      <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="exp.html">Experiences</a></li>
+        <li><a href="project.html">Projects</a></li>
+      </ul>
+    </nav>
 
     <div class="container">
       <article class="myInfo">
@@ -72,5 +75,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </body>
 </html>

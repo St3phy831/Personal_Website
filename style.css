@@ -17,7 +17,7 @@ body {
 }
 
 .myInfo h1{
-  padding: 30px 30px 20px;
+  padding: 80px 30px 20px;
 }
 
 .myInfo p{
@@ -62,6 +62,10 @@ body {
   width: 100%;
   background-color: #DCDCDC;
 }
+.contactInfo a{
+  text-decoration: none;
+  color: #3d3d3b;
+}
 .contactInfo h3{
   padding: 20px 0px 5px 30px;
 }
@@ -76,10 +80,10 @@ body {
   font-size: 12px;
 }
 #linkedIn{
-  width: 1.8%;
+  width: 2%;
 }
 #github{
-  width: 1.8%;
+  width: 2%;
 }
 hr{
   visibility: hidden;
@@ -100,7 +104,7 @@ hr{
     width: 600px;
   }
   .myInfo h1{
-    padding: 20px 0px 0px;
+    padding: 80px 0px 0px;
   }
   .myInfo p{
     padding: 20px 0px 0px;
@@ -133,11 +137,6 @@ hr{
     width: 100%;
     padding-bottom: 0px;
   }
-
-  #links{
-    word-spacing: 5px;
-  }
-  
 }
 
 /* Media Queries: Computer Screen */
@@ -208,28 +207,78 @@ hr{
   }
 }
 
-.topnav{
+nav{
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
   color: white;
   width: 100%;
+  height: 60px;
+  font-family: American Typewriter, serif;
+  list-style: none;
 }
-#logo{
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0px 5px;
+}
+nav ul li a{
+  color: white;
+  padding: 7px, 13px;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(16, 105, 238);
+}
+
+label.logo{
   float: left;
   color: #B0CEFE;
   font-size: 18px;
+  line-height: 60px;
   pointer-events:none;
+  padding: 0px 10px;
+
 }
-.topnav a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 16px 17px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: American Typewriter, serif;
-}
-.topnav a:hover {
-  background-color: rgb(16, 105, 238);
+.checkbtn{
+  font-size: 30px;
   color: white;
+  float: right;
+  line-height: 60px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.checkbtn, #check{
+  display: none;
+}
+
+@media only screen and (max-width: 1120px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    height: 100vh;
+    background: black;
+    top: 55px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+  }
+  nav il li a{
+    font-size: 20px;
+  }
+  #check:checked ~ ul, nav{
+    position: fixed;
+    left: 0;
+    width:100%;
+  }
 }
