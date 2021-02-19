@@ -65,7 +65,6 @@ body {
 }
 .picThree{
   width: 100%;
-  padding-bottom: 10px;
 }
 .containerLast{
   width: 100%;
@@ -131,7 +130,6 @@ hr{
   }
   .containerThree{
     width: 600px;
-    padding-bottom:10px;
   }
   .myInfoThree #title{
     padding: 20px 0px 10px;
