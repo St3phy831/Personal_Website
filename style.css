@@ -141,6 +141,7 @@ hr{
   .container{
     width: 1120px;
     padding-bottom: 360px;
+    padding-top: 60px;
   }
   .myInfo{
     width: 80%;
@@ -205,6 +206,7 @@ hr{
 /* Retrieved on: Jan. 20th, 2021 */
 
 nav{
+  position: fixed;
   overflow: hidden;
   background-color: black;
   color: white;
