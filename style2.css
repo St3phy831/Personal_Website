@@ -194,7 +194,7 @@ hr{
   }
   .containerThree{
     width: 1120px;
-    padding-bottom: 50px;
+    padding-bottom: 350px;
   }
   .myInfoThree #title{
     text-align: center;
@@ -215,7 +215,6 @@ hr{
   }
   .containerLast{
     width: 100%;
-    padding-top: 300px;
   }
   .contactInfo h3{
     padding-top: 15px;
