@@ -60,40 +60,22 @@ body {
 }
 .contactInfo{
   width: 100%;
-  background-color: #DCDCDC;
+  padding-top: 10px;
+  background-color: #4895cf;
+  text-align: center;
+  color: white;
 }
 .contactInfo a{
-  text-decoration: none;
-  color: #3d3d3b;
-}
-.contactInfo h3{
-  padding: 20px 0px 5px 30px;
-}
-.contactInfo p{
-  padding: 5px 0px 0px 30px;
-}
-#links{
-  word-spacing: 5px;
+  color: white;
+  font-size: 50px;
 }
 #liscence{
   padding-top: 2px;
   font-size: 12px;
 }
-#linkedIn{
-  width: 2%;
-}
-#github{
-  width: 2%;
-}
 hr{
   visibility: hidden;
 }
-
-/* Media Queries: Tablet Landscape */
-/* @media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
-} */
 
 /* Media Queries: Tabled Portrait */
 @media only screen and (min-width: 768px) {
@@ -192,9 +174,6 @@ hr{
   .containerThree{
     width: 100%;
   }
-  .contactInfo h3{
-    padding-top: 15px;
-  }
   hr{
     visibility: visible;
     border: 2.5px solid white;
@@ -231,7 +210,7 @@ nav ul li a{
   text-decoration: none;
 }
 a:hover{
-  color: rgb(16, 105, 238);
+  color: #B0CEFE;
 }
 
 label.logo{
