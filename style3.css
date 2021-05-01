@@ -17,7 +17,7 @@ body {
 .myInfo #title{
   padding: 80px 30px 20px;
 }
-.myInfo b{
+b{
   font-size: 20px;
 }
 .myInfo ul{
@@ -37,9 +37,6 @@ body {
 .myInfoTwo #title{
   padding: 15px 30px 20px;
 }
-.myInfoTwo b{
-  font-size: 20px;
-}
 .myInfoTwo ul{
   padding: 0px 30px 20px;
 }
@@ -56,9 +53,6 @@ body {
 }
 .myInfoThree #title{
   padding: 15px 30px 20px;
-}
-.myInfoThree b{
-  font-size: 20px;
 }
 .myInfoThree ul{
   padding: 0px 30px 20px;
