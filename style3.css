@@ -128,7 +128,7 @@ hr{
   }
 }
 /* Media Queries: Computer Screen */
-@media only screen and (min-width: 1120px) {
+@media only screen and (min-width: 1100px) {
   
   .container{
     width: 1120px;
@@ -173,6 +173,7 @@ hr{
   .picTwo{
     width: 16%;
     float: right;
+    padding-right: 15px;
   }
   .containerThree{
     width: 1120px;
@@ -259,7 +260,7 @@ label.logo{
   display: none;
 }
 
-@media only screen and (max-width: 1120px){
+@media only screen and (max-width: 1100px){
   .checkbtn{
     display: block;
   }
