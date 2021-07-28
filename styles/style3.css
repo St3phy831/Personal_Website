@@ -135,11 +135,11 @@ hr{
   
   .container{
     width: 1100px;
-    padding-bottom: 400px;
+    padding-bottom: 320px;
     padding-top: 60px;
   }
   .myInfo{
-    width: 80%;
+    width: 70%;
     float: right;
   }
   .myInfo #title{
@@ -149,7 +149,7 @@ hr{
     padding: 30px 20px 5px 40px;
   }
   .pic{
-    width: 16%;
+    width: 30%;
     float: left;
   }
   .containerTwo{
@@ -171,6 +171,12 @@ hr{
     float: right;
     padding-right: 15px;
   }
+  #second{
+    float: right;
+  }
+  #secongImg{
+    float: left;
+  }
   .containerThree{
     width: 1100px;
     padding-bottom: 325px;
@@ -180,14 +186,14 @@ hr{
   }
   .myInfoThree{
     width: 70%;
-    float: right;
+    float: left;
   }
   .myInfoThree ul{
     padding: 30px 20px 5px 40px;
   }
   .picThree{
     width: 28%;
-    float: left;
+    float: right;
   }
   .containerLast{
     width: 100%;
