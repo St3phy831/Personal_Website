@@ -6,45 +6,34 @@ body {
   font-family: sans-serif;
   background: #e6f2ff;
 }
-.container{
+div{
   width: 100%;
   margin: 0 auto;
 }
-.myInfo{
+article{
   width: 100%;
 }
 .myInfo h1{
   text-align: center;
-  padding: 80px 30px 20px;
+  padding: 80px 0px 20px;
+}
+p{
+  padding: 15px 30px 5px;
 }
 .myInfo p{
   padding: 0px 30px 20px;
 }
 img{
-  width: 100%;
-}
-.containerTwo{
-  width: 100%;
-  margin: 0 auto;
-}
-.csumb{
-  width: 100%;
-}
-.title{
-  padding: 30px 30px 30px;
-}
-.csumb p{
-  padding: 15px 30px 15px;
+  width: 75%;
+  padding-left: 12.2%;
+  padding-bottom: 5px;
 }
 .hartnell{
-  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.hartnell p{
-  padding: 15px 30px 15px;
-}
-.containerThree{
-  width: 100%;
-  margin: 0 auto;
+.title{
+  padding: 20px 30px 20px;
 }
 .contactInfo{
   width: 100%;
@@ -62,39 +51,19 @@ img{
   font-size: 12px;
 }
 hr{
-  visibility: hidden;
+  border: 2.5px solid white;
 }
 
 /* Media Queries: Tablet Portrait */
 @media only screen and (min-width: 768px) {
-  .container{
+  div{
     width: 768px;
-  }
-  .myInfo h1{
-    padding: 80px 0px 0px;
-  }
-  .myInfo p{
-    padding: 20px 10px 0px;
-  }
-  img{
-    padding-top: 20px;
-  }
-  .containerTwo{
-    width: 768px;
-    padding-bottom: 20px;
   }
   .title{
-    padding: 20px 10px 0px;
-  }
-  .csumb p{
-    padding: 20px 10px 0px;
-  }
-  .hartnell p{
-    padding: 20px 10px 0px;
+    padding-bottom: 20px;
   }
   .containerThree{
     width: 100%;
-    padding-bottom: 0px;
   }
 }
 
@@ -119,6 +88,8 @@ hr{
   .pic{
     width: 20%;
     float: left;
+    padding-top: 20px;
+    padding-left: 0%;
   }
   .containerTwo{
     width: 1100px;
@@ -133,7 +104,7 @@ hr{
     padding-bottom: 10px;
     text-align: center;
   }
-  .csumb p{
+  p{
     padding: 25px 0px 10px 0px;
   }
   #csumbPic{
@@ -143,18 +114,8 @@ hr{
     width: 30%;
     float: left;
   }
-  .hartnell p{
-    padding: 25px 0px 10px 0px;
-  }
   #hartnellPic{
     width: 30%;
-  }
-  .containerThree{
-    width: 100%;
-  }
-  hr{
-    visibility: visible;
-    border: 2.5px solid white;
   }
 }
 
