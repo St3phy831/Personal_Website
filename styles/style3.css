@@ -20,7 +20,8 @@ article{
 b{
   font-size: 20px;
 }
-i{
+#date{
+  font-size: 15px;
   color: #4d4d4d;
 }
 ul{
