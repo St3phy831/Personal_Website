@@ -36,8 +36,7 @@ img{
   padding: 20px 30px 20px;
 }
 .contactInfo{
-  width: 100%;
-  padding-top: 10px;
+  padding: 5px 0px 5px 0px;
   background-color: #4895cf;
   text-align: center;
   color: white;
@@ -47,7 +46,7 @@ img{
   font-size: 50px;
 }
 #liscence{
-  padding-top: 2px;
+  padding: 2px 0px 0px 0px;
   font-size: 12px;
 }
 hr{
@@ -95,16 +94,16 @@ hr{
     width: 1100px;
     padding-bottom: 340px;
   }
-  .csumb{
-    width: 30%;
-    float: right;
-  }
   .title{
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
   }
-  p{
+  .csumb{
+    width: 30%;
+    float: right;
+  }
+  .csumb p{
     padding: 25px 0px 10px 0px;
   }
   #csumbPic{
@@ -113,6 +112,9 @@ hr{
   .hartnell{
     width: 30%;
     float: left;
+  }
+  .hartnell p{
+    padding: 25px 0px 10px 0px;
   }
   #hartnellPic{
     width: 30%;
@@ -151,7 +153,6 @@ nav ul li a{
 a:hover{
   color: #B0CEFE;
 }
-
 label.logo{
   float: left;
   color: #B0CEFE;

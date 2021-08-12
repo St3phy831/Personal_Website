@@ -38,8 +38,7 @@ img {
   padding-bottom: 0px;
 }
 .contactInfo{
-  width: 100%;
-  padding-top: 10px;
+  padding: 5px 0px 5px 0px;
   background-color: #4895cf;
   text-align: center;
   color: white;
@@ -49,12 +48,13 @@ img {
   font-size: 50px;
 }
 #liscence{
-  padding-top: 2px;
+  padding: 2px 0px 0px 0px;
   font-size: 12px;
 }
 hr{
   border: 2.5px solid white;
 }
+
 /* Media Queries: Tablet Portrait */
 @media only screen and (min-width: 768px) {
   div {
@@ -64,36 +64,51 @@ hr{
     width: 100%;
   }
 }
+
 /* Media Queries: Computer Screen */
 @media only screen and (min-width: 1100px) {
-  .container{
-    width: 1100px;
-    padding-bottom: 395px;
-    padding-top: 60px;
-  }
-  article {
-    width: 75%;
-    float: right;
-  }
-  .myInfo #title{
-    padding-top: 20px;
-  }
-  p{
-    padding: 10px 10px 5px 40px;
-  }
   img {
     width: 25%;
     float: left;
     padding-top: 20px;
     padding-left: 0%;
   }
+  .container{
+    width: 1100px;
+    padding-bottom: 395px;
+    padding-top: 60px;
+  }
+  .myInfo {
+    width: 75%;
+    float: right;
+  }
+  .myInfo #title{
+    padding-top: 20px;
+  }
+  .myInfo p{
+    padding: 10px 10px 5px 40px;
+  }
   .containerTwo{
     width: 1100px;
     padding-bottom: 413px;
   }
+  .myInfoTwo {
+    width: 75%;
+    float: right;
+  }
+  .myInfoTwo p{
+    padding: 10px 10px 5px 40px;
+  }
   .containerThree{
     width: 1100px;
     padding-bottom: 335px;
+  }
+  .myInfoThree {
+    width: 75%;
+    float: right;
+  }
+  .myInfoThree p{
+    padding: 10px 10px 5px 40px;
   }
 }
 
@@ -129,7 +144,6 @@ nav ul li a{
 a:hover{
   color: #B0CEFE;
 }
-
 label.logo{
   float: left;
   color: #B0CEFE;
