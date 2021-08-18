@@ -53,12 +53,15 @@ img {
   color: white;
 }
 .contactInfo a{
-  color: white;
   font-size: 50px;
 }
 #liscence{
   padding: 2px 0px 0px 0px;
   font-size: 12px;
+}
+a{
+  color: #4895cf;
+  text-decoration: none;
 }
 hr{
   border: 2.5px solid white;
