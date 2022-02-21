@@ -6,11 +6,11 @@ body {
   font-family: sans-serif;
   background: #e6f2ff;
 }
-div{
+section{
   width: 100%;
   margin: 0 auto;
 }
-article{
+div{
   width: 100%;
 }
 .myInfo h1{
@@ -55,13 +55,13 @@ hr{
 
 /* Media Queries: Tablet Portrait */
 @media only screen and (min-width: 768px) {
-  div{
+  section{
     width: 768px;
   }
   .title{
     padding-bottom: 20px;
   }
-  .containerThree{
+  .contactInfo{
     width: 100%;
   }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<!-- Stephanie Hernandez 20 November 2020 -->
+<!-- Created: Stephanie Hernandez 20 November 2020 -->
+<!-- Last Modified: Stephanie Hernandez 21 February 2022 -->
 <html>
   <head>
     <meta charset="utf-8">
@@ -20,69 +21,72 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <!-- This links the home page to the rest of the pages -->
-    <!-- Following code lines 18-27 Adapted from: https://www.youtube.com/watch?v=oLgtucwjVII-->
-    <!-- Retrieved on: Jan. 20th, 2021-->
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
-      <label class="logo">Stephanie H.</label>
-      <ul>
-        <li><a href="index.html">About Me</a></li>
-        <li><a href="exp.html">Experiences</a></li>
-        <li><a href="project.html">Projects</a></li>
-      </ul>
-    </nav>
+    <main>
+      <!-- This links the home page to the rest of the pages -->
+      <!-- Following code lines 18-27 Adapted from: https://www.youtube.com/watch?v=oLgtucwjVII-->
+      <!-- Retrieved on: Jan. 20th, 2021-->
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+        <label class="logo">Stephanie H.</label>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="exp.html">Experiences</a></li>
+          <li><a href="project.html">Projects</a></li>
+        </ul>
+      </nav>
+      <section class="container">
+          <div class="myInfo">
+            <header>
+              <h1>Hello World, I'm Stephanie Hernandez!</h1>
+            </header>
+            <p>
+              I'm a CSin3 Student at California State University, Monterey Bay and Hartnell College. CSin3 is a 
+              selective and rigorous computer science program that offers students to graduate in three years with 
+              a bachelor's in computer science, which is based on a community learning model. The reason I decided 
+              to go here is because I wanted to be a part of a cohort with like-minded peers where we can motivate 
+              each other to strive for success inside and outside the classroom. My aspiration is to become a 
+              software engineer to make a positive impact in people's lives and contribute to something larger than 
+              myself for my community.
+            </p>
+            <p>
+              I come from a family of strawberry pickers and Mexican immigrants, so I have seen resiliensce and 
+              strength firsthand from my parents. My family is my utmost importance. They are my main motivation 
+              and support system. They inspire me to always put effort into everything and to never give up.
+            </p>
+            <p>
+              <b>Hobbies:</b> Learning • Watching Movies • Music (singing or playing) • Going for Walks • Seeking 
+              Adventure
+            </p>
+          </div>
+        <img class="pic" src="myImages/me.jpeg" alt="Stephanie Hernandez">
+      </section>
+      <hr>
+      <section class="containerTwo">
+          <header class="title">
+            <h1>Education:</h1>
+          </header>
+          <div class="csumb">
+            <img id="csumbPic" src="myImages/CSUMBLogo.png">
+            <p><b>Intended Graduation:</b> May 2023</p>
+            <p><b>Seeking:</b> Bachelor's in Computer Science</p>
+            <p><b>Recent Courses:</b> Multimedia Design & Programming</p>
+          </div>
+      
+          <div class="hartnell">
+            <img id="hartnellPic" src="myImages/hartnellLogo.jpg">
+            <p><b>Grad Date:</b> Dec. 2021</p>
+            <p><b>Degree:</b> Associate's in Computer Science</p>
+            <p><b>Relevant Courses:</b> Object Oriented Programming | Data Structures & Algorithms</p>
+          </div>
+      </section>
 
-    <div class="container">
-      <article class="myInfo">
-        <h1>Hello World, I'm Stephanie Hernandez!</h1>
-        <p>
-          I'm a CSin3 Student at California State University, Monterey Bay and Hartnell College. CSin3 is a 
-          selective and rigorous computer science program that offers students to graduate in three years with 
-          a bachelor's in computer science, which is based on a community learning model. The reason I decided 
-          to go here is because I wanted to be a part of a cohort with like-minded peers where we can motivate 
-          each other to strive for success inside and outside the classroom. My aspiration is to become a 
-          software engineer to make a positive impact in people's lives and contribute to something larger than 
-          myself for my community.
-        </p>
-        <p>
-          I come from a family of strawberry pickers and Mexican immigrants, so I have seen resiliensce and 
-          strength firsthand from my parents. My family is my utmost importance. They are my main motivation 
-          and support system. They inspire me to always put effort into everything and to never give up.
-        </p>
-        <p>
-          <b>Hobbies:</b> Learning • Watching Movies • Music (singing or playing) • Going for Walks • Seeking 
-          Adventure
-        </p>
-      </article>
-      <img class="pic" src="myImages/me.jpeg" alt="Stephanie Hernandez">
-    </div>
-    <hr>
-    <div class="containerTwo">
-      <article class="title"><h1>Education:</h1></article>
-      <article class="csumb">
-        <img id="csumbPic" src="myImages/CSUMBLogo.png">
-        <p><b>Intended Graduation:</b> May 2023</p>
-        <p><b>Seeking:</b> Bachelor's in Computer Science</p>
-        <p><b>Recent Courses:</b> Multimedia Design & Programming</p>
-      </article>
-  
-      <article class="hartnell">
-        <img id="hartnellPic" src="myImages/hartnellLogo.jpg">
-        <p><b>Grad Date:</b> Dec. 2021</p>
-        <p><b>Degree:</b> Associate's in Computer Science</p>
-        <p><b>Relevant Courses:</b> Object Oriented Programming | Data Structures & Algorithms</p>
-      </article>
-    </div>
-
-    <div class="containerThree">
-      <article class="contactInfo">
+      <footer class="contactInfo">
         <a href="mailto:stephernandez831@gmail.com"><i class="fas fa-envelope-square"></i></a>
         <a href="https://www.linkedin.com/in/stephernandez831/"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/St3phy831"><i class="fab fa-github-alt"></i></a>
         <p id="liscence">© 2021 Stephanie H.</p>
-      </article>
-    </div>
+      </footer>
+    </main>
   </body>
 </html>

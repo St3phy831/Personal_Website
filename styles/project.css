@@ -6,19 +6,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #e6f2ff;
 }
-div{
+section{
   width: 100%;
   margin: 0 auto;
 }
-article{
+div{
   width: 100%;
 }
 .myInfo #title{
   text-align: center;
   padding: 80px 30px 20px;
-}
-b{
-  font-size: 20px;
 }
 #date{
   font-size: 15px;
@@ -61,7 +58,7 @@ img {
   font-size: 12px;
 }
 a{
-  color: #4895cf;
+  color: #0962a7;
   text-decoration: none;
 }
 hr{
@@ -69,10 +66,10 @@ hr{
 }
 /* Media Queries: Tablet Portrait */
 @media only screen and (min-width: 768px) {
-  div{
+  section{
     width: 768px;
   }
-  .containerLast{
+  .contactInfo{
     width: 100%;
   }
 }
@@ -170,8 +167,11 @@ nav ul li a{
   border-bottom: 3px solid transparent;
   text-decoration: none;
 }
-a:hover{
+nav a:hover{
   color: #B0CEFE;
+}
+section a:hover{
+  color: #0661f3;
 }
 label.logo{
   float: left;
