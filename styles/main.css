@@ -13,14 +13,14 @@ section{
 div{
   width: 100%;
 }
-.myInfo h1{
+#myInfo h1{
   text-align: center;
   padding: 80px 0px 20px;
 }
 p{
   padding: 15px 30px 5px;
 }
-.myInfo p{
+#myInfo p{
   padding: 0px 30px 20px;
 }
 img{
@@ -28,20 +28,20 @@ img{
   padding-left: 12.2%;
   padding-bottom: 5px;
 }
-.hartnell{
+#hartnell{
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.title{
+#eduTitle{
   padding: 20px 30px 20px;
 }
-.contactInfo{
+footer{
   padding: 5px 0px 5px 0px;
   background-color: #4895cf;
   text-align: center;
   color: white;
 }
-.contactInfo a{
+footer a{
   color: white;
   font-size: 50px;
 }
@@ -58,64 +58,64 @@ hr{
   section{
     width: 768px;
   }
-  .title{
+  #eduTitle{
     padding-bottom: 20px;
   }
-  .contactInfo{
+  footer{
     width: 100%;
   }
 }
 
 /* Media Queries: Computer Screen */
 @media only screen and (min-width: 1100px) {
-  .container{
+  #aboutMe{
     width: 1100px;
     padding-bottom: 360px;
     padding-top: 60px;
   }
-  .myInfo{
+  #myInfo{
     width: 80%;
     float: right;
   }
-  .myInfo h1{
+  #myInfo h1{
     padding: 20px 0px 20px 0px;
   }
 
-  .myInfo p{
+  #myInfo p{
     padding: 20px 20px 10px 40px;
   }
-  .pic{
+  #myImg{
     width: 20%;
     float: left;
     padding-top: 20px;
     padding-left: 0%;
   }
-  .containerTwo{
+  #education{
     width: 1100px;
     padding-bottom: 340px;
   }
-  .title{
+  #eduTitle{
     padding-top: 20px;
     padding-bottom: 10px;
     text-align: center;
   }
-  .csumb{
+  #csumb{
     width: 35%;
     float: right;
   }
-  .csumb p{
+  #csumb p{
     padding: 25px 0px 10px 0px;
   }
   #csumbPic{
     width: 50%;
   }
-  .hartnell{
+  #hartnell{
     width: 35%;
     float: left;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .hartnell p{
+  #hartnell p{
     padding: 25px 0px 10px 0px;
   }
   #hartnellPic{
