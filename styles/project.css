@@ -34,7 +34,7 @@ h2{
   text-align: center;
   padding: 20px 30px 20px;
 }
-#seeMusicImg{
+#lastImg{
   padding-bottom: 0px;
 }
 footer{
@@ -71,61 +71,45 @@ hr{
 @media only screen and (min-width: 1100px) {
   #latestProject{
     width: 1100px;
-    padding-bottom: 320px;
-    padding-top: 60px;
+    padding-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
   }
   img{
-    padding-top: 20px;
-    padding-left: 0%;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
   }
   ul{
     padding-left: 40px;
   }
-  #countriesProject{
-    width: 66%;
-    float: right;
+  #title, h2{
+    padding-top: 0px;
   }
-  #title{
-    padding-top: 20px;
-  }
-  #countriesImg{
-    width: 30%;
-    float: left;
-    padding-left: 25px;
+  .projectImg, #lastImg{
+    width: 40%;
   }
   .midProjects{
     width: 1100px;
-    padding-bottom: 390px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
   }
-  #myFridge{
-    width: 81%;
-    float: left;
-  }
-  #fridgeImg{
-    width: 16%;
-    float: right;
-    padding-right: 10px;
-  }
-  #bookExchange{
-    width: 81%;
-    float: right;
-  }
-  #bookExchangeImg{
-    width: 16%;
-    float: left;
-    padding-right: 10px;
+  #myFridgeImg, #bookExchangeImg{
+    width: 60%;
   }
   #oldestProject{
     width: 1100px;
-    padding-bottom: 320px;
-  }
-  #seeMusic{
-    width: 70%;
-    float: left;
-  }
-  #seeMusicImg{
-    width: 28%;
-    float: right;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
   }
 }
 

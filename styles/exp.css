@@ -29,8 +29,8 @@ p{
 }
 img {
   width: 75%;
-  padding-left: 12.2%;
-  padding-top: 10px;
+  padding-left: 12%;
+  /* padding-top: 10px; */
   padding-bottom: 5px;
 }
 #lastPic{
@@ -67,33 +67,33 @@ hr{
 /* Media Queries: Computer Screen */
 @media only screen and (min-width: 1100px) {
   img {
-    width: 25%;
-    float: left;
-    padding-top: 20px;
-    padding-left: 0%;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
   }
   #usc{
     width: 1100px;
-    padding-bottom: 395px;
-    padding-top: 60px;
+    padding-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
   }
-  .info {
-    width: 75%;
-    float: right;
+  #uscImg, #codePathImg, #lastPic{
+    width: 30%;
   }
-  .info #title{
-    padding-top: 20px;
+  .info #title, h2{
+    padding-top: 0px;
   }
-  .myInfo p{
-    padding: 10px 10px 5px 40px;
-  }
-  #codePath{
+  #codePath, #google{
     width: 1100px;
-    padding-bottom: 413px;
-  }
-  #google{
-    width: 1100px;
-    padding-bottom: 335px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
   }
 }
 

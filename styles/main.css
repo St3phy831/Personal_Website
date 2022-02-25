@@ -25,7 +25,7 @@ p{
 }
 img{
   width: 75%;
-  padding-left: 12.2%;
+  padding-left: 12%;
   padding-bottom: 5px;
 }
 #hartnell{
@@ -58,9 +58,6 @@ hr{
   section{
     width: 768px;
   }
-  #eduTitle{
-    padding-bottom: 20px;
-  }
   footer{
     width: 100%;
   }
@@ -70,55 +67,47 @@ hr{
 @media only screen and (min-width: 1100px) {
   #aboutMe{
     width: 1100px;
-    padding-bottom: 360px;
-    padding-top: 60px;
+    padding-top: 90px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
   }
-  #myInfo{
-    width: 80%;
-    float: right;
+  #myInfo h1, #hartnell{
+    padding: 0px;
   }
-  #myInfo h1{
-    padding: 20px 0px 20px 0px;
-  }
-
   #myInfo p{
-    padding: 20px 20px 10px 40px;
+    padding: 20px 0px 0px 0px;
   }
   #myImg{
-    width: 20%;
-    float: left;
-    padding-top: 20px;
-    padding-left: 0%;
+    width: 35%;
   }
   #education{
     width: 1100px;
-    padding-bottom: 340px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   #eduTitle{
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 20px 0px;
     text-align: center;
   }
-  #csumb{
-    width: 35%;
-    float: right;
+  #schoolInfo{
+    display: flex;
+    justify-content: space-evenly;
   }
-  #csumb p{
-    padding: 25px 0px 10px 0px;
+  #csumb, #hartnell{
+    justify-content: center;
+  }
+  #schoolInfo p{
+    text-align: center;
   }
   #csumbPic{
+    margin: auto;
     width: 50%;
   }
-  #hartnell{
-    width: 35%;
-    float: left;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  #hartnell p{
-    padding: 25px 0px 10px 0px;
-  }
   #hartnellPic{
+    margin: auto;
+    padding: 0px;
     width: 30%;
   }
 }
